@@ -1,3 +1,5 @@
+import { ChatInterface } from "@/components/custom/chat-interface";
+
 export default function DashboardPage() {
-  return <div>Protected Dashboard</div>;
+  return <ChatInterface />;
 }
